@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px; /* Add padding around content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    height: 100px;
+    width: 300px;
+  }
+  
+  #button-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px; /* Optional padding inside the button container */
+    background-color: white; /* To make the buttons stand out */
+    border-radius: 8px; /* Optional rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+  }
+  /* Toast notification styling */
+.toast {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    opacity: 0;
+    animation: fadeInOut 2s ease-in-out;
+  }
+  
+  @keyframes fadeInOut {
+    0%, 100% { opacity: 0; }
+    10%, 90% { opacity: 1; }
+  }
+  .speed-btn {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #c15858;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 90px;
+    transition: background-color 0.3s;
+  }
+  
+  .speed-btn:hover {
+    background-color: #cc0000;
+  }
+  

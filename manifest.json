@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Speed Controller",
+    "description": "Control YouTube playback speed with buttons.",
+    "version": "1.0",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://www.youtube.com/*"
+    ]
+}
