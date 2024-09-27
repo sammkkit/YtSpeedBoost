@@ -30,7 +30,8 @@ To install the YouTube Speed Controller Chrome Extension, follow these steps:
    - Enable "Developer mode" in the top right corner.
    - Click on "Load unpacked".
    - Select the folder where you extracted the files.
-
+ 
+ 
 4. **Use the extension**:
    - Open a YouTube video.
    - Click on the extension icon in the Chrome toolbar.
