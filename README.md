@@ -17,14 +17,11 @@ The YouTube Speed Controller is a simple Chrome extension that allows users to q
 
 To install the YouTube Speed Controller Chrome Extension, follow these steps:
 
-1. **Download the repository**:
-   - Click the green "Code" button on this repository page.
-   - Select "Download ZIP" or clone the repository using Git:
-     ```bash
-     git clone https://github.com/sammkkit/YtSpeedBoost.git
-     ```
+1. **Download the latest release**:
+   - Visit the [Releases](https://github.com/sammkkit/YtSpeedBoost/releases/tag/v1.0.0) page of this repository.
+   - Download the latest release ZIP file.
 
-2. **Extract the files** (if you downloaded the ZIP):
+2. **Extract the files**:
    - Unzip the downloaded file to a location on your computer.
 
 3. **Load the extension in Chrome**:
@@ -32,7 +29,7 @@ To install the YouTube Speed Controller Chrome Extension, follow these steps:
    - Navigate to `chrome://extensions/`.
    - Enable "Developer mode" in the top right corner.
    - Click on "Load unpacked".
-   - Select the folder where you extracted or cloned the repository.
+   - Select the folder where you extracted the files.
 
 4. **Use the extension**:
    - Open a YouTube video.
